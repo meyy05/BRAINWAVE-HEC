@@ -1,0 +1,813 @@
+/* ========== CSS JAVAFX COMPATIBLE - BRAINWAVE'HEC VIBRANT PASTEL ========== */
+
+/* ========== GÉNÉRAL ========== */
+.root {
+    -fx-background-color: #fdf2f8;
+    -fx-font-family: "Inter", "Satoshi", "SF Pro Display", sans-serif;
+    -fx-font-size: 14px;
+}
+
+/* ========== HEADER ULTRA PREMIUM ========== */
+.header {
+    -fx-background-color: #7C9ACC;
+    -fx-background-radius: 24;
+    -fx-padding: 32 40 32 40;
+    -fx-effect:  30, 0, 0, 15;
+    -fx-border-color: rgba(255, 255, 255, 0.4);
+    -fx-border-width: 2;
+    -fx-border-radius: 24;
+}
+
+
+/* ========== BOUTONS MODERNES ========== */
+.btn-primary {
+    -fx-background-color: white;
+    -fx-text-fill: #284E7B;
+    -fx-font-size: 15;
+    -fx-font-weight: 800;
+    -fx-padding: 14 28 14 28;
+    -fx-background-radius: 16;
+    -fx-cursor: hand;
+    -fx-border-color: #ffffff;
+    -fx-border-width: 2;
+    -fx-border-radius: 16;
+}
+
+.btn-primary:hover {
+    -fx-background-color: #fef3f9;
+}
+
+.btn-strong {
+    -fx-background-color: #284E7B;
+    -fx-text-fill: white;
+    -fx-font-size: 16;
+    -fx-font-weight: 800;
+    -fx-padding: 14 32 14 32;
+    -fx-background-radius: 16;
+    -fx-cursor: hand;
+    -fx-border-radius: 16;
+}
+
+.btn-strong:hover {
+    -fx-background-color: #427AA1;
+}
+
+.btn-secondary {
+    -fx-background-color: #fef3f9;
+    -fx-text-fill: #8b5cf6;
+    -fx-font-size: 14;
+    -fx-font-weight: 700;
+    -fx-padding: 12 24 12 24;
+    -fx-background-radius: 14;
+    -fx-border-radius: 14;
+    -fx-cursor: hand;
+}
+
+.btn-secondary:hover {
+    -fx-background-color: white;
+    -fx-border-color: #8F908D;
+}
+
+.btn-icon {
+    -fx-background-color: #fce7f3;
+    -fx-text-fill: #284E7B;
+    -fx-font-size: 20;
+    -fx-padding: 12;
+    -fx-background-radius: 14;
+    -fx-cursor: hand;
+    -fx-border-color: #7C9ACC;
+    -fx-border-width: 2;
+    -fx-border-radius: 14;
+}
+
+.btn-icon:hover {
+    -fx-background-color: #7C9ACC;
+}
+
+.btn-danger {
+    -fx-background-color: #427CA2;
+    -fx-text-fill: white;
+    -fx-font-size: 15;
+    -fx-font-weight: 700;
+    -fx-padding: 12 24 12 24;
+    -fx-background-radius: 14;
+    -fx-cursor: hand;
+    -fx-border-color: rgba(255, 255, 255, 0.3);
+    -fx-border-width: 2;
+    -fx-border-radius: 14;
+}
+
+.btn-danger:hover {
+    -fx-background-color: #9CC6DB;
+}
+
+/* ========== SIDEBAR ========== */
+.sidebar {
+    -fx-background-color: transparent;
+}
+
+.sidebar-card {
+    -fx-background-color: white;
+    -fx-background-radius: 20;
+    -fx-padding: 24;
+    -fx-effect:  rgba(236, 72, 153, 0.15), 20, 0, 0, 10;
+    -fx-border-color: #7C9ACC;
+    -fx-border-width: 2;
+    -fx-border-radius: 20;
+}
+
+.sidebar-label {
+    -fx-font-size: 13;
+    -fx-font-weight: 900;
+    -fx-text-fill: #284E7B;
+    -fx-padding: 0 0 16 0;
+}
+
+/* ========== MENU BUTTONS ========== */
+.menu-button {
+    -fx-background-color: #fef3f9;
+    -fx-text-fill: #6b21a8;
+    -fx-font-size: 14;
+    -fx-font-weight: 700;
+    -fx-padding: 14 18 14 18;
+    -fx-background-radius: 14;
+    -fx-border-color: #fce7f3;
+    -fx-border-width: 2;
+    -fx-border-radius: 14;
+    -fx-cursor: hand;
+    -fx-alignment: CENTER_LEFT;
+}
+
+.menu-button:hover {
+    -fx-background-color: #284E7B;
+    -fx-text-fill: white;
+    -fx-border-color: #CBDCEB;
+    -fx-effect: dropshadow(gaussian,#CBDCEB, 15, 0, 0, 6);
+}
+
+.menu-button.active {
+    -fx-background-color: #284E7B;
+    -fx-text-fill: white;
+    -fx-border-color: #CBDCEB;
+    -fx-effect: dropshadow(gaussian, rgba(236, 72, 153, 0.6), 20, 0, 0, 8);
+}
+/*========Stat Cards========== */
+.stat-card {
+    -fx-background-color: #E9C8CE;
+    -fx-background-radius: 20;
+    -fx-padding: 20;
+    -fx-effect:  rgba(236,72,153,0.4), 25, 0, 0, 12;
+    -fx-cursor: hand;
+    -fx-border-radius: 20;
+}
+
+.stat-card:hover {
+    -fx-effect: dropshadow(gaussian, #CBDCEB, 35, 0, 0, 18);
+}
+
+.stat-card-success {
+    -fx-background-color: #DEABAF;
+    -fx-background-radius: 20;
+    -fx-padding: 28;
+    -fx-effect:  rgba(236,72,153,0.4), 25, 0, 0, 12;
+    -fx-cursor: hand;
+    -fx-border-radius: 20;
+}
+.stat-card-success:hover {
+    -fx-effect: dropshadow(gaussian, #CBDCEB, 35, 0, 0, 18);
+}
+.stat-card-warning {
+    -fx-background-color: #DC98BD;
+    -fx-background-radius: 20;
+    -fx-padding: 28;
+    -fx-effect:  rgba(236,72,153,0.4), 25, 0, 0, 12;
+    -fx-cursor: hand;
+    -fx-border-radius: 20;
+}
+.stat-card-warning:hover {
+    -fx-effect: dropshadow(gaussian, #CBDCEB, 35, 0, 0, 18);
+}
+.stat-card-danger {
+    -fx-background-color: #B384A7;
+    -fx-background-radius: 20;
+    -fx-padding: 28;
+    -fx-effect:  rgba(236,72,153,0.4), 25, 0, 0, 12;
+    -fx-cursor: hand;
+    -fx-border-radius: 20;
+}
+.stat-card-danger:hover {
+    -fx-effect: dropshadow(gaussian, #CBDCEB, 35, 0, 0, 18);
+}
+/* TEXT */
+.stat-value {
+    -fx-font-size: 48;
+    -fx-font-weight: 900;
+    -fx-text-fill: white;
+}
+
+.stat-label {
+    -fx-font-size: 15;
+    -fx-text-fill: white;
+    -fx-padding: 10 0 0 0;
+    -fx-font-weight: 700;
+}
+
+/* ========== TABLE VIEW ========== */
+.table-view {
+    -fx-background-color: white;
+    -fx-background-radius: 20;
+    -fx-effect: dropshadow(gaussian, rgba(236, 72, 153, 0.15), 20, 0, 0, 10);
+    -fx-border-color: #7C9ACC;
+    -fx-border-width: 2;
+    -fx-border-radius: 20;
+}
+
+.table-view .column-header {
+    -fx-background-color: #fef3f9;
+    -fx-font-weight: 800;
+    -fx-font-size: 13;
+    -fx-text-fill: #284E7B;
+    -fx-padding: 16;
+}
+
+.table-view .column-header-background {
+    -fx-background-color: transparent;
+}
+
+.table-row-cell {
+    -fx-background-color: white;
+    -fx-padding: 12;
+}
+
+.table-row-cell:odd {
+    -fx-background-color: #fef3f9;
+}
+
+.table-row-cell:selected {
+    -fx-background-color: #fce7f3;
+    -fx-effect: dropshadow(gaussian, rgba(236, 72, 153, 0.3), 10, 0, 0, 4);
+}
+
+.table-row-cell:hover {
+    -fx-background-color: #fce7f3;
+}
+
+.table-cell {
+    -fx-padding: 14;
+    -fx-font-size: 14;
+    -fx-text-fill: #4b5563;
+    -fx-font-weight: 600;
+}
+
+/* ========== INPUTS ========== */
+.combo-box,
+.text-field,
+.text-area,
+.date-picker,
+.spinner {
+    -fx-background-color: white;
+    -fx-background-radius: 14;
+    -fx-border-color: #7C9ACC;
+    -fx-border-width: 2;
+    -fx-border-radius: 14;
+    -fx-padding: 14 18 14 18;
+    -fx-font-size: 14;
+    -fx-text-fill: #1f2937;
+    -fx-font-weight: 600;
+}
+
+.combo-box:focused,
+.text-field:focused,
+.text-area:focused,
+.date-picker:focused,
+.spinner:focused {
+    -fx-border-color: #284E7B;
+    -fx-border-width: 2;
+    -fx-background-color: white;
+    -fx-effect: dropshadow(gaussian, rgba(236, 72, 153, 0.4), 18, 0, 0, 8);
+}
+
+.text-field:hover,
+.text-area:hover,
+.combo-box:hover {
+    -fx-border-color: #CBDCEB;
+    -fx-background-color: #fefcfd;
+}
+
+.text-area .content {
+    -fx-background-color: transparent;
+}
+
+/* ========== CHECKBOX ========== */
+.check-box {
+    -fx-font-size: 14;
+    -fx-text-fill: #4b5563;
+    -fx-font-weight: 600;
+}
+
+.check-box .box {
+    -fx-background-color: white;
+    -fx-border-color: #CBDCEB;
+    -fx-border-width: 2;
+    -fx-border-radius: 8;
+    -fx-padding: 6;
+}
+
+.check-box:selected .box {
+    -fx-background-color: #284E7B;
+    -fx-border-color: transparent;
+    -fx-effect: dropshadow(gaussian, rgba(236, 72, 153, 0.6), 12, 0, 0, 4);
+}
+
+.check-box:selected .mark {
+    -fx-background-color: white;
+}
+
+.check-box:hover .box {
+    -fx-border-color: #284E7B;
+    -fx-background-color: #fef3f9;
+}
+
+/* ========== DETAIL CARD ========== */
+.detail-card {
+    -fx-background-color: white;
+    -fx-background-radius: 20;
+    -fx-padding: 28;
+    -fx-border-color: #7C9ACC;
+    -fx-border-width: 2;
+    -fx-border-radius: 20;
+    -fx-effect: dropshadow(gaussian, rgba(236, 72, 153, 0.15), 20, 0, 0, 10);
+}
+
+.detail-field {
+    -fx-background-color: #fef3f9;
+    -fx-background-radius: 14;
+    -fx-padding: 18;
+    -fx-border-color: #fce7f3;
+    -fx-border-width: 2;
+    -fx-border-radius: 14;
+}
+
+/* ========== LABELS ========== */
+.label {
+    -fx-text-fill: #374151;
+    -fx-font-size: 14;
+    -fx-font-weight: 600;
+}
+
+.small-text {
+    -fx-font-size: 13;
+    -fx-text-fill: #6b7280;
+    -fx-font-weight: 500;
+}
+
+.section-title {
+    -fx-font-size: 26;
+    -fx-font-weight: 900;
+    -fx-text-fill: #284E7B;
+    -fx-padding: 0 0 20 0;
+    -fx-effect: dropshadow(gaussian, #CBDCEB, 8, 0, 0, 3);
+}
+
+.form-label {
+    -fx-font-size: 13;
+    -fx-font-weight: 800;
+    -fx-text-fill: #ec4899;
+    -fx-padding: 0 0 10 6;
+}
+
+/* ========== DIALOG ========== */
+.dialog-pane {
+    -fx-background-color: white;
+    -fx-background-radius: 24;
+    -fx-padding: 0;
+    -fx-effect: dropshadow(gaussian, #CBDCEB, 40, 0, 0, 20);
+    -fx-border-color: #427CA2;
+    -fx-border-width: 2;
+    -fx-border-radius: 24;
+}
+
+.dialog-pane:hover {
+    -fx-effect: dropshadow(gaussian, rgba(66, 122, 161, 0.5), 50, 0, 0, 25);
+    -fx-border-color: #7C9ACC;
+}
+
+.dialog-pane .header-panel {
+    -fx-background-color: #284E7B;
+    -fx-background-radius: 24 24 0 0;
+    -fx-padding: 28 36 28 36;
+    -fx-cursor: hand;
+}
+
+.dialog-pane .header-panel:hover {
+    -fx-background-color: #427AA1;
+}
+
+.dialog-pane .header-panel .label {
+    -fx-text-fill: white;
+    -fx-font-size: 28;
+    -fx-font-weight: 900;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.2), 6, 0, 0, 3);
+}
+
+.dialog-pane .content {
+    -fx-padding: 36;
+    -fx-background-color: transparent;
+}
+
+.dialog-pane .button-bar {
+    -fx-padding: 0 36 28 36;
+    -fx-background-color: transparent;
+}
+
+/* ========== IMAGE CONTAINER ========== */
+.image-container {
+    -fx-background-color: #fce7f3;
+    -fx-background-radius: 16;
+    -fx-padding: 14;
+    -fx-border-color: #CBDCEB;
+    -fx-border-width: 2;
+    -fx-border-style: segments(12, 6);
+    -fx-border-radius: 16;
+    -fx-cursor: hand;
+    -fx-effect: dropshadow(gaussian, rgba(236, 72, 153, 0.2), 15, 0, 0, 6);
+}
+
+.image-container:hover {
+    -fx-background-color: #7C9ACC;
+    -fx-border-color: #284E7B;
+}
+
+.image-preview {
+    -fx-effect: dropshadow(gaussian, rgba(236, 72, 153, 0.3), 12, 0, 0, 4);
+}
+
+/* ========== SCROLL BAR ========== */
+.scroll-bar {
+    -fx-background-color: transparent;
+}
+
+.scroll-bar .thumb {
+    -fx-background-color: #CBDCEB;
+    -fx-background-radius: 12;
+}
+
+.scroll-bar .thumb:hover {
+    -fx-background-color: #284E7B;
+}
+
+.scroll-bar .track {
+    -fx-background-color: #fce7f3;
+    -fx-background-radius: 12;
+}
+
+.scroll-bar .increment-button,
+.scroll-bar .decrement-button {
+    -fx-background-color: transparent;
+}
+
+/* ========== SEPARATOR ========== */
+.separator {
+    -fx-background-color: #7C9ACC;
+}
+
+.separator .line {
+    -fx-border-color: #7C9ACC;
+    -fx-border-width: 1;
+}
+
+/* ========== SCROLL PANE ========== */
+.scroll-pane {
+    -fx-background-color: transparent;
+    -fx-border-color: transparent;
+}
+
+.scroll-pane .viewport {
+    -fx-background-color: transparent;
+}
+
+.scroll-pane .corner {
+    -fx-background-color: transparent;
+}
+
+/* ========== BADGES & TAGS ========== */
+.badge {
+    -fx-background-color: #284E7B;
+    -fx-background-radius: 20;
+    -fx-padding: 6 16 6 16;
+    -fx-font-size: 12;
+    -fx-font-weight: 800;
+    -fx-text-fill: white;
+    -fx-effect: dropshadow(gaussian, rgba(236, 72, 153, 0.4), 10, 0, 0, 3);
+}
+
+.badge-success {
+    -fx-background-color: #7dd3fc;
+}
+
+.badge-warning {
+    -fx-background-color: #fbbf24;
+}
+
+.badge-danger {
+    -fx-background-color: #fb7185;
+}
+/* ========== DÉTAILS DANS SIDEBAR ========== */
+.sidebar .detail-card {
+    -fx-background-color: white;
+    -fx-border-color: #7C9ACC;
+    -fx-border-width: 2;
+    -fx-border-radius: 16;
+    -fx-background-radius: 16;
+    -fx-padding: 0;
+    -fx-effect: dropshadow(gaussian, rgba(124, 154, 204, 0.2), 10, 0, 0, 3);
+}
+
+/* Zone de texte de description */
+.sidebar .text-area {
+    -fx-background-color: #f8f9fa;
+    -fx-border-color: #e2e8f0;
+    -fx-border-width: 1.5;
+    -fx-border-radius: 8;
+    -fx-background-radius: 8;
+    -fx-padding: 8;
+    -fx-font-size: 12px;
+}
+
+.sidebar .text-area .content {
+    -fx-background-color: #f8f9fa;
+    -fx-padding: 4;
+}
+
+/* Badges colorés */
+.status-badge {
+    -fx-background-radius: 12;
+    -fx-padding: 4 10;
+    -fx-font-size: 11px;
+    -fx-font-weight: bold;
+    -fx-text-fill: white;
+}
+
+/* Boutons dans les détails */
+.detail-action-btn {
+    -fx-background-radius: 10;
+    -fx-border-radius: 10;
+    -fx-font-size: 12px;
+    -fx-font-weight: bold;
+    -fx-padding: 8 16;
+    -fx-cursor: hand;
+    -fx-border-width: 1;
+}
+
+.btn-edit {
+    -fx-background-color: #7C9ACC;
+    -fx-text-fill: white;
+    -fx-border-color: #427AA1;
+}
+
+.btn-edit:hover {
+    -fx-background-color: #427AA1;
+    -fx-effect: dropshadow(gaussian, rgba(66, 122, 161, 0.4), 8, 0, 0, 3);
+}
+
+.btn-delete {
+    -fx-background-color: #DEABAF;
+    -fx-text-fill: white;
+    -fx-border-color: #DC98BD;
+}
+
+.btn-delete:hover {
+    -fx-background-color: #DC98BD;
+    -fx-effect: dropshadow(gaussian, rgba(220, 152, 189, 0.4), 8, 0, 0, 3);
+}
+
+/* Titre de la carte de détails */
+.detail-title {
+    -fx-font-size: 18px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #284E7B;
+    -fx-padding: 0 0 10 0;
+}
+
+/* Info lignes */
+.detail-info {
+    -fx-font-size: 12px;
+    -fx-text-fill: #666666;
+    -fx-font-weight: 600;
+}
+/* ========== STYLES DU CALENDRIER ========== */
+
+/* Conteneur principal du calendrier */
+.calendar-grid {
+    -fx-background-color: #f8f9fa;
+    -fx-border-color: #e0e0e0;
+    -fx-border-radius: 12px;
+    -fx-background-radius: 12px;
+    -fx-padding: 20px;
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.05), 8, 0, 0, 2);
+}
+
+/* En-têtes des jours de la semaine */
+.calendar-day-header {
+    -fx-font-weight: bold;
+    -fx-font-size: 13px;
+    -fx-text-fill: #427AA1;
+    -fx-background-color: #e8f4ff;
+    -fx-background-radius: 8px;
+    -fx-alignment: center;
+    -fx-padding: 10px 0;
+}
+
+/* Cellules des jours */
+.calendar-day-cell {
+    -fx-background-color: white;
+    -fx-border-color: #e9ecef;
+    -fx-border-width: 1px;
+    -fx-background-radius: 8px;
+    -fx-border-radius: 8px;
+    -fx-padding: 8px;
+    -fx-effect: null;
+    -fx-cursor: hand;
+}
+
+/* Jour actuel (aujourd'hui) */
+.calendar-today {
+    -fx-background-color: #e8f6f3;
+    -fx-border-color: #16a085;
+    -fx-border-width: 2px;
+}
+
+/* Jours en dehors du mois en cours */
+.calendar-day-outside {
+    -fx-background-color: #f8f9fa;
+    -fx-opacity: 0.5;
+}
+
+/* Effet au survol des jours */
+.calendar-day-hover {
+    -fx-background-color: #f0f7ff;
+    -fx-effect: dropshadow(gaussian, rgba(66, 122, 161, 0.1), 4, 0, 0, 1);
+}
+
+/* Numéro du jour */
+.calendar-day-number {
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #284E7B;
+    -fx-padding: 0 0 5px 0;
+}
+
+/* Tâches dans le calendrier */
+.calendar-task {
+    -fx-font-size: 11px;
+    -fx-text-fill: #495057;
+    -fx-background-color: transparent;
+    -fx-padding: 2px 4px;
+    -fx-background-radius: 4px;
+    -fx-border-radius: 4px;
+    -fx-max-width: 100px;
+    -fx-wrap-text: true;
+}
+
+/* Tâches terminées dans le calendrier */
+.calendar-task-done {
+    -fx-font-size: 11px;
+    -fx-text-fill: #6c757d;
+    -fx-background-color: transparent;
+    -fx-padding: 2px 4px;
+    -fx-background-radius: 4px;
+    -fx-border-radius: 4px;
+    -fx-strikethrough: true;
+    -fx-max-width: 100px;
+    -fx-wrap-text: true;
+}
+
+/* Label "plus de tâches" */
+.calendar-more-tasks {
+    -fx-font-size: 10px;
+    -fx-text-fill: #6c757d;
+    -fx-font-style: italic;
+    -fx-padding: 2px 0 0 0;
+}
+
+/* ========== BOUTONS DE NAVIGATION DU CALENDRIER ========== */
+
+/* Boutons Mois précédent/suivant */
+.btn-secondary {
+    -fx-background-color: #7C9ACC;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-font-size: 13px;
+    -fx-padding: 8px 16px;
+    -fx-background-radius: 8px;
+    -fx-border-color: #427AA1;
+    -fx-border-width: 1px;
+    -fx-border-radius: 8px;
+    -fx-cursor: hand;
+}
+
+.btn-secondary:hover {
+    -fx-background-color: #6B8AB8;
+    -fx-effect: dropshadow(gaussian, rgba(124, 154, 204, 0.3), 6, 0, 0, 2);
+}
+
+.btn-secondary:pressed {
+    -fx-background-color: #5A7AA4;
+}
+
+/* Bouton "Aujourd'hui" */
+.btn-strong {
+    -fx-background-color: #427AA1;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-font-size: 14px;
+    -fx-padding: 10px 20px;
+    -fx-background-radius: 10px;
+    -fx-border-color: #284E7B;
+    -fx-border-width: 1px;
+    -fx-border-radius: 10px;
+    -fx-cursor: hand;
+}
+
+.btn-strong:hover {
+    -fx-background-color: #3A6A8F;
+    -fx-effect: dropshadow(gaussian, rgba(66, 122, 161, 0.4), 8, 0, 0, 3);
+}
+
+.btn-strong:pressed {
+    -fx-background-color: #315A7D;
+}
+
+/* ========== FENÊTRE MODALE DES TÂCHES DU JOUR ========== */
+
+/* Titre de la fenêtre modale */
+.section-title {
+    -fx-font-size: 20px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #284E7B;
+    -fx-padding: 0 0 15px 0;
+}
+
+/* Cartes des tâches dans la fenêtre modale */
+.detail-field {
+    -fx-background-color: white;
+    -fx-border-color: #e0e0e0;
+    -fx-border-width: 1px;
+    -fx-background-radius: 10px;
+    -fx-border-radius: 10px;
+    -fx-padding: 15px;
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.04), 4, 0, 0, 1);
+    -fx-cursor: hand;
+}
+
+.detail-field:hover {
+    -fx-background-color: #f8f9fa;
+    -fx-border-color: #7C9ACC;
+}
+/* ========== BARRE D'ONGLETS SIMPLE ========== */
+
+/* Style de base du TabPane */
+.main-tab-pane {
+    -fx-background-color: transparent;
+    -fx-tab-min-height: 35px;
+    -fx-tab-max-height: 35px;
+    -fx-tab-min-width: 120px;
+}
+
+/* Style des onglets non sélectionnés */
+.main-tab-pane .tab {
+    -fx-background-color:#D5D4E5 ;
+    -fx-background-radius: 10px;
+    -fx-border-color: #ddd;
+    -fx-border-width: 0px;
+    -fx-border-radius: 10px 10px 0 0;
+    -fx-padding: 8px 15px;
+    -fx-font-size: 13px;
+    -fx-font-weight: normal;
+    -fx-text-fill: #666;
+}
+.main-tab-pane .tab:selected {
+    -fx-border-color: #A1B3D1; /* Supprime la bordure */
+    -fx-background-color:#A1B3D1 ;
+    -fx-text-fill: transparent;
+    -fx-font-weight: bold;
+}
+
+
+/* Contenu des onglets */
+.main-tab-pane .tab-content-area {
+    -fx-background-color: white;
+    -fx-border-color: #ddd;
+    -fx-border-width: 1px;
+    -fx-background-radius: 10px;
+    -fx-border-radius: 10px;
+}
+
+/* Zone d'en-tête des onglets */
+.main-tab-pane .tab-header-area {
+    -fx-padding: 5px;
+}
+
+.main-tab-pane .tab-header-background {
+    -fx-background-color: transparent;
+}
